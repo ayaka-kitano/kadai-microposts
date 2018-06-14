@@ -34,7 +34,7 @@ class MicropostsController extends Controller
             'content' => $request->content,
         ]);
 
-        return redirect()->back();
+        return redirect('/');
     }
     
     public function destroy($id)
